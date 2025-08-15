@@ -3,7 +3,7 @@
 A web-based viewer for **3D Gaussian Splatting (.ply)** files, built with **React**, **Three.js**, and **WebGL**.  
 This application allows for interactive exploration of complex point cloud data with advanced rendering controls — right in your browser.
 
-![Application Screenshot](REPLACE_WITH_SCREENSHOT_URL)  
+![Application Screenshot]([REPLACE_WITH_SCREENSHOT_URL](https://github.com/cysorianoc/splat_viewer/blob/main/Capture%20d%E2%80%99%C3%A9cran%202025-08-15%20115809.png))  
 *(Replace the above URL with a screenshot of the application)*
 
 [See the app]([https://www.genome.gov/](https://splatviewer.netlify.app/))
