@@ -6,7 +6,8 @@ This application allows for interactive exploration of complex point cloud data 
 ![Application Screenshot](https://github.com/cysorianoc/splat_viewer/blob/main/Capture%20d%E2%80%99%C3%A9cran%202025-08-15%20115809.png)
 
 
-[See the app]([https://www.genome.gov/](https://splatviewer.netlify.app/))
+[See the app](https://splatviewer.netlify.app/)
+
 
 ---
 
