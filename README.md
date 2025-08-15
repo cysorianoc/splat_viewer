@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Gaussian Splat Viewer
 
-# Run and deploy your AI Studio app
+A web-based viewer for **3D Gaussian Splatting (.ply)** files, built with **React**, **Three.js**, and **WebGL**.  
+This application allows for interactive exploration of complex point cloud data with advanced rendering controls — right in your browser.
 
-This contains everything you need to run your app locally.
+![Application Screenshot](REPLACE_WITH_SCREENSHOT_URL)  
+*(Replace the above URL with a screenshot of the application)*
 
-View your app in AI Studio: https://ai.studio/apps/drive/1EHSddHEjxr68n4sftfIaqz4b2b7TI2CD
+[See the app]([https://www.genome.gov/](https://splatviewer.netlify.app/))
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- ** Rendering**: Utilizes custom WebGL shaders to render millions of points efficiently.  
+- **Local File Loading**: Load `.ply` files directly from your local disk with a progress indicator.  
+- **Multiple Render Modes**:  
+  - **Splat Mode**: Renders full 3D Gaussian splats, respecting scale and rotation for a photorealistic look.  
+  - **Original Colors Mode**: Displays points using their embedded color data.  
+  - **Elevation Colormap Mode**: Visualizes the model's structure by mapping point elevation to a *Viridis* color gradient.  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Interactive Controls**:  
+  - **3D Orbit Camera**: Intuitive orbit, pan, and zoom via `OrbitControls`.  
+  - **Transformations**: Translate, rotate, and scale the model in real-time.  
+  - **Appearance**: Adjust point/splat size, opacity, and background color.  
+  - **3D Cropping**: Isolate regions of interest with a 3D bounding box.  
+  - **Scene Helpers**: Toggleable axes and grid for better spatial orientation.  
+  - **Performance Monitoring**: Real-time FPS and total point count display.  
