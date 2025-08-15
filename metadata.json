@@ -1,0 +1,5 @@
+{
+  "name": "Gaussian Splat Viewer",
+  "description": "A React application for viewing 3D Gaussian Splatting (.ply) files with various rendering and transformation controls.",
+  "requestFramePermissions": []
+}
